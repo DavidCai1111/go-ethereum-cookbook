@@ -113,4 +113,4 @@ var (
 
 固定长度字节与字节的编码相比，省去了前面的长度信息，值也是在右侧补 0 至 32 字节。
 
-此处的函数指的函数的 `function_selector(f)` ，为函数签名的 Keccak-256 哈希的前 4 字节，即在 [abi.go](abi.go.md) 中所看到的 method.ID 。
+此处的函数指的函数的 `function_selector(f)` ，为函数签名的 Keccak-256 哈希的前 4 字节，即在 [abi.go](abi.go.md) 中所看到的 method.ID ，所以也是固定长度的。
