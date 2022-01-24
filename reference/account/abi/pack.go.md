@@ -1,3 +1,7 @@
+---
+description: https://github.com/ethereum/go-ethereum/blob/master/accounts/abi/pack.go
+---
+
 # pack.go
 
 该文件主要定义了除数组与元组外的其他类型数据的具体编码函数。

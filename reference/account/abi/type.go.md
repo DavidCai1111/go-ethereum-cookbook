@@ -1,3 +1,7 @@
+---
+description: https://github.com/ethereum/go-ethereum/blob/master/accounts/abi/type.go
+---
+
 # type.go
 
 该文件主要定义了所有支持编码的数据类型，以及数组与元组的具体编码函数。

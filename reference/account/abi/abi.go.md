@@ -1,5 +1,5 @@
 ---
-description: 定义了 ABI 结构体 ，以及最顶层的编码/解码函数
+description: https://github.com/ethereum/go-ethereum/blob/master/accounts/abi/abi.go
 ---
 
 # abi.go

@@ -1,3 +1,7 @@
+---
+description: https://github.com/ethereum/go-ethereum/tree/master/accounts/abi
+---
+
 # abi
 
 该目录下的代码，根据[以太坊智能合约的 ABI 编码定义](https://docs.soliditylang.org/en/latest/abi-spec.html)，完整实现了从 Go 语言结构体与具体 ABI 输出之间的编码与解码。其内部的 bind 子目录，提供了工具（可通过 `./cmd/abigen` 使用）根据 ABI 文件或 Solidity 代码文件生成 Golang/Java/OC 桩代码（类似于 Grpc 里的 Stub 文件），方便强类型语言客户端进行调用/部署，具体用法可参阅[这篇文档](https://geth.ethereum.org/docs/dapp/native-bindings)。
