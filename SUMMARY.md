@@ -9,4 +9,4 @@
     * [abi.go](reference/account/abi/abi.go.md)
     * [type.go](reference/account/abi/type.go.md)
     * [pack.go](reference/account/abi/pack.go.md)
-  * [consensus](reference/account/users.md)
+* [consensus](reference/consensus.md)
