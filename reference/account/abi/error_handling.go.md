@@ -53,6 +53,5 @@ func typeCheck(t Type, value reflect.Value) error {
 	} else {
 		return nil
 	}
-
 }
 ```
